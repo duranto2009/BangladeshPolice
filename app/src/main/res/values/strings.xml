@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bangladesh Police</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Offline Option</string>
+
+    <string name="welcome">Welcome Screen for 3 Seconds</string>
+    <string name="title_activity_legendary">Profile</string>
+
+</resources>

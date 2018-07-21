@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+
+    <TextView
+        android:id="@+id/textViewSubjectFullForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:layout_below="@+id/textViewSubject"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:layout_below="@+id/textViewSubjectFullForm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/textViewMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:layout_below="@+id/textViewPhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:layout_below="@+id/textViewMobile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/textViewFax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fax"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
